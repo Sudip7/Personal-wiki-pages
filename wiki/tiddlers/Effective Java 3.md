@@ -10,7 +10,7 @@
 **Advantage**
 
 * Unlike constructors **they have names**
-    * static factory with a well-chosen name is easier to use and resulting client code easier to read.
+  * static factory with a well-chosen name is easier to use and resulting client code easier to read.
   *  In cases where a class require multiple constructors with the same signature, replace them with static factory methods and carefully chosen names to highlight the difference. 
   * **Not required to create new object** each time they are invoked
   *  This allows immutable classes to use preconstructed instances, or to cache instances as they are constructed and dispense them repeatedly to avoid duplicates..
